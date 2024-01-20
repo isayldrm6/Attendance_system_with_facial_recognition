@@ -1,0 +1,110 @@
+.sidenav h2 {
+  color: white;
+  text-align: center;
+  border-bottom: 2px solid;
+}
+
+.sidenav {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.917);
+  backdrop-filter: blur(30px);
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+.sidenav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidenav li.asd {
+  cursor: pointer;
+}
+
+.sidenav li.asd {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+  font-size: x-large;
+}
+
+.sidenav li.asd:hover {
+  background-color: #020a43;
+}
+
+.sub-menu {
+  margin-left: 100px;
+  max-height: 500px;
+  overflow-y: auto;
+  background-color: #212f96;
+}
+
+.sub-menu li {
+  margin-top: 5px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+}
+.sub-menu li:hover {
+  background-color: #00000096;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 100%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  border-collapse: collapse;
+}
+.container.open {
+  max-height: 500px;
+}
+
+.baslik {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.veri-listesi {
+  list-style: none;
+  padding: 0;
+}
+th,
+td {
+  padding: 15px;
+}
+
+.veri-elemani {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.veri-elemani:hover {
+  transform: scale(1.02);
+}
